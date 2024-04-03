@@ -1,7 +1,7 @@
 Energy systems performance dashboard
 ==============================
 
-Documentation available at: https://fluffy-bassoon-gql6w3l.pages.github.io/
+Documentation available at: https://empowering-energy-solutions-ltd.github.io/dashboard-plotter/
 
 The energy systems performance dashboard assesses gas and electricity consumption and invoice data to help site managers have a clearer understanding of their energy consumption & spend.
 
