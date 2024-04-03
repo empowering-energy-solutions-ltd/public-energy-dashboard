@@ -1,0 +1,1 @@
+::: tabs.consumption_tab

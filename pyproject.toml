@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "dashboard-plotter"
+version = "0.1.0"
+description = ""
+authors = ["rhys-jones-e2s <124159152+rhys-jones-e2s@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "dashboard_plotter"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.0.3"
+numpy = "^1.25.2"
+openpyxl = "^3.1.2"
+ipykernel = "^6.25.1"
+e2sviz = {git = "git@github.com:empowering-energy-solutions-ltd/e2sviz.git", rev = "main"}
+dash = "^2.13.0"
+python-dotenv = "^1.0.0"
+dash-bootstrap-components = "^1.4.2"
+dash-ag-grid = "^2.3.0"
+dash-auth = "^2.0.0"
+jinja2 = "^3.1.3"
+mkdocs-gen-files = "^0.5.0"
+mkdocs = "^1.5.3"
+mkdocstrings = "^0.24.1"
+mkdocs-material = "^9.5.14"
+mkdocs-mermaid2-plugin = "^1.1.1"
+mkdocs-markdownextradata-plugin = "^0.2.5"
+mkdocs-literate-nav = "^0.6.1"
+mkdocs-section-index = "^0.3.8"
+mkdocstrings-python = "^1.9.0"
+
+[tool.poetry.group.dev.dependencies]
+yapf = "^0.40.1"
+ipykernel = "^6.25.1"
+pylance = "^0.6.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

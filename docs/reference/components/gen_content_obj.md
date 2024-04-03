@@ -1,0 +1,1 @@
+::: components.gen_content_obj

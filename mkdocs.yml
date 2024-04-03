@@ -1,0 +1,48 @@
+site_name: Energy Systems Dashboard
+
+nav:
+  - Home: index.md
+  - Code Reference:
+    - Components:
+      - reference/components/consumption_plots.md
+      - reference/components/cost_plots.md
+      - reference/components/filter_objects.md
+      - reference/components/gen_content_obj.md
+      - reference/components/layout.md
+      - reference/components/line_fig.md
+      - reference/components/power_plots.md
+      - reference/components/sidebar.md
+      - reference/components/submeter_plots.md
+      - reference/components/summary_plot.md
+    - Data:
+      - reference/data/loader.md
+      - reference/data/metadata.md
+    - Tabs:
+      - reference/tabs/consumption_tab.md
+      - reference/tabs/cost_tab.md
+      - reference/tabs/general_tab.md
+      - reference/tabs/overview_tab.md
+      - reference/tabs/power_tab.md
+
+theme:  
+  name: material
+  palette:
+    primary: cy
+    accent: purple
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+
+plugins:
+  - search
+  - mkdocstrings:
+      enabled: !ENV [ENABLE_MKDOCSTRINGS, true]
+      default_handler: python
+      handlers:
+        python: 
+          paths: [src]
+          options:
+            show_source: false
+
+extra_css:
+    - styles.css

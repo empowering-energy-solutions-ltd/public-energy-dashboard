@@ -1,0 +1,1 @@
+::: components.consumption_plots

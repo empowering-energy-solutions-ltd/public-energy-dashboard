@@ -1,0 +1,1 @@
+::: components.power_plots

@@ -1,0 +1,1 @@
+::: components.cost_plots

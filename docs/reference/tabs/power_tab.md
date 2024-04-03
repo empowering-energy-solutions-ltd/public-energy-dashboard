@@ -1,0 +1,1 @@
+::: tabs.power_tab

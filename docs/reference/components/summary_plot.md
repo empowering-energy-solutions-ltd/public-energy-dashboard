@@ -1,0 +1,1 @@
+::: components.summary_plot
